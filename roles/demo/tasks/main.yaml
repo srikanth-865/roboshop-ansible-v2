@@ -3,6 +3,6 @@
     msg: "Hi i am from demo roles tasks"
 - name: import role from this demo to common.yaml file
   import_role: 
-    name: tasks
+    name: common
     tasks_from: main.yaml
   
