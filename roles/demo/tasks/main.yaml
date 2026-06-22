@@ -4,5 +4,5 @@
 - name: import role from this demo to common.yaml file
   import_role: 
     name: common
-    tasks_from: main.yaml
+    tasks_from: main
   
