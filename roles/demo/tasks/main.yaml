@@ -2,6 +2,6 @@
   debug:
     msg: "Hi i am from demo roles tasks"
 - name: import role from this demo to common.yaml file
-  import_role:
+  import_role: 
     name: common
-    tasks_from: hello.yaml
+  
