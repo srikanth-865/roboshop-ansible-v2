@@ -1,3 +1,4 @@
 - name: this is the common tasks
-  debug: 
-    msg: "hI from common task execution"
+  hosts: catalogue
+  roles:
+  - demo
