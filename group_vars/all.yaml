@@ -1,0 +1,11 @@
+ansible_user: ec2-user
+ansible_password: DevOps321
+MONGODB_HOST: mongodb.srikanth865.online
+REDIS_HOST: redis.srikanth865.online
+MYSQL_HOST: mysql.srikanth865.online
+RABBITMQ_HOST: rabbitmq.srikanth865.online 
+CATALOGUE_HOST: catalogue.srikanth865.online
+USER_HOST: user.srikanth865.online
+CART_HOST: cart.srikanth865.online
+SHIPPING_HOST: shipping.srikanth865.online
+PAYMENT_HOST: payment.srikanth865.online
