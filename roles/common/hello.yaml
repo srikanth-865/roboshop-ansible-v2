@@ -1,2 +1,3 @@
-- name: this is common direcctory
+- name: this is common hell
   debug:
+    msg: "this is from hello common task"
