@@ -1,8 +1,3 @@
-- name: Demo roles  
+- name: This is demo folder file
   debug:
-    msg: "Hi i am from demo roles tasks"
-- name: import role from this demo to common.yaml file
-  import_role: 
-    name: common
-    tasks_from: main
-  
+    msg: " HI i am from demo role tasks"
