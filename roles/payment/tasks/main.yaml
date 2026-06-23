@@ -8,8 +8,7 @@
   import_role:
      name: common
      tasks_from: app-setup
-- name: 
-
+     
 - name: copying service file and also deamon reloading
   import_role:
     name: common 
