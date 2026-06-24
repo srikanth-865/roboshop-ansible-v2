@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    instances: ["mysql", "shipping] #["user", "cart", "shipping", "payment", "frontend", "mongodb", "redis", "mysql", "rabbitmq","catalogue"]
+    instances: [ {{ item }}] #["user", "cart", "shipping", "payment", "frontend", "mongodb", "redis", "mysql", "rabbitmq","catalogue"]
     image_id: ami-0220d79f3f480ecf5
     domain_name: srikanth865.online 
     action: create
